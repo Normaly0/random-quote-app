@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Source+Serif+Pro:ital@1&display=swap');
+
+$main-font: 'Merriweather', serif;
+$quote-font: 'Source Serif Pro', serif;
+
+
+.container {
+  font-family: $main-font;
+}
+
+.quote-container {
+  background: linear-gradient(90deg, rgba(60, 94, 246, 1), rgb(41, 65, 172));
+  width: 750px;
+  margin: 40px auto;
+  padding: 60px 40px;
+  text-align: center;
+  font-family: $quote-font;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.664);
+  box-sizing: border-box;
+}
+
+
+
+.quote {
+    font-size: 2em;
+}
+
+.author {
+    font-size: 1.5em;
+}
+
+
+.button-box {
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: inherit;
+    font-weight: bold;
+
+    border: 2px solid white;
+    border-color: white;
+    background: transparent;
+    transition: background-color, 0.2s, ease-out; 
+    
+    &:hover {
+        background-color: #5372fa; 
+        transition: 0.2s ease-in;
+    }
+
+    &:active {
+        background-color: rgba(255, 255, 255, 0.521);
+        transition: 0.1s;
+    }
+}
+
+//Media inquiries
+
+@media (max-width:992px) {
+    .quote-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .quote-container {
+        font-size: 3.5vw;
+        padding: 40px 20px;
+    }
+
+    .button {
+        font-size: 5vw;
+    }
+}
