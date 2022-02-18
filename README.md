@@ -6,11 +6,11 @@ A quote app SPA that access an external random quote API displaying new quotes w
 
 ## About
 
-This applicaton was build as part of the [Front End Development Libraries Certification](https://www.freecodecamp.org/certification/normaly/front-end-development-libraries).
+This application was built as part of the [Front End Development Libraries Certification](https://www.freecodecamp.org/certification/normaly/front-end-development-libraries).
 
 It uses the react framework in combination with the redux library. For the API calls it relies on AXIOS.
 
-As this was the first bigger aplication that I've build in react and I've also decided to combine it with redux it was a challenging but super exciting task.
+As this was the first bigger application that I've built in react and I've also decided to combine it with redux it was a challenging but super exciting task.
 The biggest challenge came from having to make a proper API call using AXIOS and then properly process all the received information, so it can then be passed to the page.
 
 Future ideas:
@@ -29,11 +29,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
